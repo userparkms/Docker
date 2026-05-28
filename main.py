@@ -89,3 +89,7 @@ def delete_course(course_id: int):
             save_courses(courses)
             return {"message": f"Course {course_id} deleted"}
     raise HTTPException(status_code=404, detail="Course not found")
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
