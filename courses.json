@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "컴퓨팅 기초",
+    "instructor": "김교수",
+    "description": "컴퓨팅 기초 실습",
+    "credits": 3
+  },
+  {
+    "id": 2,
+    "name": "Docker",
+    "instructor": "이교수",
+    "description": "Docker 실습 강의",
+    "credits": 3
+  },
+  {
+    "id": 3,
+    "name": "FastAPI",
+    "instructor": "박교수",
+    "description": "FastAPI 개발 실습",
+    "credits": 2
+  }
+]
